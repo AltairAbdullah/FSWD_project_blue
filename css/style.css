@@ -1,0 +1,261 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/*css header start*/
+header{
+	background-color: #121B2A;
+}
+.wrapper{
+	/*border: 5px solid green;*/
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo{
+	/*border: 1px solid white;*/
+	width: 15%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	/*border: 1px solid white;*/
+	margin-top: 25px;
+	width: 70%;
+	float: right;
+	overflow: hidden;
+}
+.menu ul{
+	margin-top: 50px;
+	float: right;
+	overflow: hidden;
+	
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	text-transform: uppercase;
+}
+.menu ul li a{
+	margin-right: 40px;
+	text-decoration: none;
+	word-spacing: 4px;
+	font-size: 18px;
+	padding: 5px 15px;
+	display: block;
+	color: #FFFFFF;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #0178BC;
+	transition: 0.5s;
+}
+/*css header end*/
+/*css banner start*/
+.banner{
+	background-image: url(../images/banner/oe_banner.jpg);
+	background-size: cover;
+	background-position: top center;
+	/*min-height: 300px;*/
+}
+.banner-content{
+	margin-top: 300px;
+	margin-bottom: 150px;
+	width: 45%;
+}
+.banner-content p:first-child{
+	font-size: 28px;
+	color: #FFFFFF;
+}
+.banner-content h1{
+	font-size: 35px;
+	color: #0170B1;
+}
+.banner-content p:nth-last-child(2){
+	font-size: 18px;
+	line-height: 1.5;
+	color: #FFFFFF;
+}
+.banner-content button{
+	border: none;
+	margin-top: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	text-transform: uppercase;
+	background-color: #FFFFFF;
+	color: #5A5A5A;
+}
+.banner-content button span{
+	background-color: #0177BD;
+	margin-left: 10px;
+	padding: 4px 7px;
+	border-radius: 50%;
+	color: #FFFFFF;
+}
+/*css banner end*/
+/*css service start*/
+.service {
+	background-color: #121B2C;
+	padding: 50px 0;
+}
+.single {
+	/*border: 2px solid white;*/
+	width: 28%;
+	padding: 10px 20px;
+	float: left;
+	border-right: ;
+}
+.single: last-child{
+	border-right: 0;
+}
+.title {
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+.icon {
+	/*border: 1px solid red;*/
+	width:25% ;
+	float: left;
+}
+.icon img{
+	width: 100%;
+}
+.icon-content {
+	/*border: 1px solid red;*/
+	margin-top: 7px;
+	width: 70%;
+	float: left;
+}
+.icon-content h1{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	text-transform: capitalize;
+	color: #FFFFFF;
+}
+.icon-content h2{
+	margin-top: 5px;
+	font-family: sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+	text-transform: capitalize;
+	color: #0078BF;
+}
+.content{
+}
+.content p{
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 1.4;
+	color: #FFFFFF;
+}
+/*css service end*/
+/*contact start*/
+.contact{
+	border: 1px solid;
+	width: 100%;
+	background-color:#040811;
+}
+.wrapper_2{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.single_2{
+	padding: 40px 0;
+	margin-right: 25px;
+	width: 30%;
+	color: #B4B3B8;
+	float: left;
+}
+.single_2:last-child{
+	margin-right: 0;
+}
+#talkbubble{
+    margin-bottom: 20px;
+    padding: 25px 10px;
+    width: 250px;
+    height: 140px;
+    background: #0c1019;
+    border-radius: 7px;
+  }
+
+.single_2 h2{
+	font-size: 20px;
+}
+.single_2:first-child h2{
+	margin-top: 25px;
+}
+.single_2 address{
+	font-size: 12px;
+	line-height: 20px;
+}
+.single_2 p{
+	font-size: 12px;
+	line-height: 20px;
+}
+.single_2 h2 span{
+	color: #0278BE;
+}
+.single_2 a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #B4B3B8;
+}
+.single_2 img{
+	width: 100%;
+}
+/*contact end*/
+/*footer start*/
+footer{
+	padding: 25px 0;
+	background-color: #121b2c;
+}
+.wrapper_2{
+	overflow: hidden;
+}
+.menu_2{
+float: left;
+}
+.menu_2 ul{
+	overflow: hidden;
+}
+.menu_2 ul li{
+	list-style: none;
+	float: left;
+}
+.menu_2 ul li a{
+	margin-right: 25px;
+	font-size: 15px;
+	text-decoration: none;
+	color: #FFFFFF;
+	transition: 0.5s;
+}
+.menu_2 ul li a:hover{
+	color: #0178BC;
+}
+.menu_2 p{
+	margin-top: 35px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.symbian {
+	margin-right: 100px;
+    margin-left: 450px;
+	float: left;
+}
+
+.logo_2 {
+	float: left;
+}
+/*footer end*/
+
